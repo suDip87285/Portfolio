@@ -55,7 +55,7 @@ const Hero = () => {
               Writer Content Creator Influencer
             </motion.div>
             <div className="imageContainer h-full w-[50%] absolute top-0 right-0">
-                <img src="/hero.png" alt="" />
+                <img src="./hero.png" alt="" />
             </div>
 
         </div>
