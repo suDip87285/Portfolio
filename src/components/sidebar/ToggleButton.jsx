@@ -2,7 +2,7 @@ import React from 'react'
 
 const Togglebutton = ({ setOpen }) => {
   return (
-    <button onClick={()=> setOpen((prev)=> !prev) } className='w-[50px] h-[50px] fixed top-[25px] left-[25px] bg-transparent rounded-[50%]'>
+    <button onClick={()=> setOpen((prev)=> !prev) } className='w-[50px] h-[50px] fixed top-[25px] left-[25px] bg-transparent rounded-[50%] z-[999]'>
         <svg width="23" viewBox="0 0 23 23">
             <path strokeWidth="3" stroke="black" strokelinecap="round" 
             variants={{

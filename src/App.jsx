@@ -3,6 +3,10 @@ import Navbar from './components/Navbar'
 import './index.css'; // ← CSS import here
 import Hero from './components/hero/Hero';
 import Parallax from './components/parallax/Parallax';
+import Services from './components/services/Services';
+import Portfolio from './components/Portfolio/Portfolio';
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,11 +18,9 @@ function App() {
         <Hero />
       </section>
       <section id='Services'><Parallax type="services"/></section>
-      <section id='Portfolio'>Services</section>
+      <section id='Portfolio'><Services /></section>
       <section id='Contact'><Parallax type="portfolio"/></section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
+      <Portfolio />
       <section>Contact</section>
     </div>
   )
