@@ -25,11 +25,11 @@ const Services = () => {
     const isInView = useInView(ref, {margin: "-100px"})
 
   return (
-    <motion.div className='services h-full flex flex-col justify-between items-center' variants={variants} initial="initial" ref={ref} animate={isInView && "animate"}>
-        <motion.div variants={variants} className="textContainers">
+    <motion.div className='services h-full flex flex-col justify-between items-center' variants={variants} initial="initial" ref={ref} animate={ "animate"}>
+        <motion.div variants={variants} className="textContainer">
             <p> Focus on helping your brand grow <br /> and more forward</p><hr />
         </motion.div>
-        <motion.div variants={variants} className="titleContainers">
+        <motion.div variants={variants} className="titleContainer">
             <div className="title">
                 <img className='w-[300px] h-[100px] rounded-[50px] ' src="./people.webp" alt="" />
                 <h1><motion.b whileHover={{color: "orange"}}>Unique</motion.b> Ideas</h1>

@@ -49,7 +49,7 @@ const Hero = () => {
                 <motion.button variants={textVariants} className='p-[20px] border-solid border-1 border-white mr-[20px]'>See the Latest Works</motion.button>
                 <motion.button variants={textVariants} className='p-[20px] border-solid border-1 border-white'>Contact Me</motion.button>
                 </motion.div>
-                <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" className='w-[50px]' alt="" />
+                <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" className='w-[50px]' alt="" />
             </motion.div>
             <motion.div variants={silderVariants} initial="initial" animate="animate" className="slidingTextContainer absolute text-[50vh] bottom-[-120px] whitespace-nowrap text-[#ffffff09] w-[50%] font-bold">
               Writer Content Creator Influencer

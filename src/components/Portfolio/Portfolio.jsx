@@ -38,12 +38,12 @@ const Portfolio = () => {
             // offset: ["start start", "end start"]
         })
         
-        const y = useTransform(scrollYProgress, [0,1], [-100, 100])
+        const y = useTransform(scrollYProgress, [0,1], [-300, 300])
         // const x = useTransform(scrollYProgress, [0,1], [-300, 300])
         return <section>
             <div className="container flex items-center justify-center w-full h-full overflow-hidden">
                 <div className="wrapper h-full max-w-[1100px] m-auto flex gap-[50px] flex items-center justify-center">
-                    <div className="imgConatiner flex-1 h-[50%]" ref={ref}>
+                    <div className="imgContainer flex-1 h-[50%]" ref={ref}>
                         <img src={item.img} className='w-full h-full object-cover' alt="" />
                     </div>
                     <motion.div className="textContainer flex-1 flex flex-col gap-[20px]" style={{y}}>
